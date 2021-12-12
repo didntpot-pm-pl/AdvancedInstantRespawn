@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/didntpot-pm-pl/AdvancedInstantRespawn
+build-by-default: true
+branches:
+- main
+projects:
+  AdvancedInstantRespawn:
+    path: ""
+...
