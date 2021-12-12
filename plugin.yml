@@ -1,0 +1,12 @@
+name: AdvancedInstantRespawn
+
+version: 1.0.0
+
+main: DidntPot\AdvancedInstantRespawn\Loader
+description: A plugin respawns the player automatically without showing the death screen.
+website: https://github.com/didntpot-pm-pl/AdvancedInstantRespawn
+
+authors:
+  - DidntPot
+api:
+  - 4.0.0
