@@ -1,5 +1,5 @@
 ## AdvancedInstantRespawn
-A plugin respawns the player automatically without showing the death screen.
+A plugin that respawns the player automatically without showing the death screen.
 
 ## Features
 - [x] Auto respawns the player when they die to a player.
