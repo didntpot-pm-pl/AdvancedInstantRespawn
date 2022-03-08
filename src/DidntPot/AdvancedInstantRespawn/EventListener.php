@@ -35,7 +35,7 @@ class EventListener implements Listener
         {
             $ev->cancel();
 
-            $player->setHealth(20);
+            $player->setHealth($player->getMaxHealth());
             $player->getHungerManager()->setFood(20);
 
             $player->getEffects()->clear();
@@ -58,7 +58,7 @@ class EventListener implements Listener
                 {
                     $ev->cancel();
 
-                    $player->setHealth(20);
+                    $player->setHealth($player->getMaxHealth());
                     $player->getHungerManager()->setFood(20);
 
                     $player->getEffects()->clear();
